@@ -1,4 +1,4 @@
-require('@luskaluck/envVars').config()
+require('dotenv').config()
 require('./utils/MessagePrototype.js').run()
 
 import {
